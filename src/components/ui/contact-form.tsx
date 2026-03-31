@@ -16,9 +16,9 @@ const socialLinks = [
   },
   {
     name: "GitHub",
-    href: "https://github.com/Debashish-C",
+    href: "https://github.com/itsdebashish",
     icon: Github,
-    description: "@Debashish-C",
+    description: "@itsdebashish",
   },
   {
     name: "LinkedIn",
