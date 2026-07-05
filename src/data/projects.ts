@@ -13,6 +13,50 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "food-delivery-backend",
+    title: "Scalable Food Delivery Backend System",
+    description:
+      "Production-style backend inspired by Swiggy/Zomato with JWT authentication, Redis caching, Docker deployment, and scalable architecture.",
+    longDescription:
+      "Designed and implemented a production-style food delivery backend using Java and Spring Boot. The system follows a modular monolith architecture with clean separation of concerns. Features include JWT authentication, role-based authorization, Redis caching, Docker containerization, optimized MySQL schema design, and an order lifecycle state machine capable of handling concurrent transitions and failure scenarios.",
+    techStack: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "MySQL",
+      "Redis",
+      "JWT",
+      "Docker",
+      "Hibernate",
+      "JPA"
+    ],
+    githubUrl: "https://github.com/your-username/food-delivery-backend",
+    category: "backend",
+    featured: true,
+  },
+
+  {
+    id: "ai-interview-platform",
+    title: "AI Interview Assessment Platform",
+    description:
+      "Real-time coding interview platform with WebSocket communication, JWT authentication, and concurrent interview sessions.",
+    longDescription:
+      "Built a scalable interview assessment platform supporting real-time coding interviews and automated evaluation workflows. Implemented secure authentication with JWT, role-based authorization, WebSocket-based live synchronization, structured question bank management, concurrent interview session handling, and an extensible evaluation pipeline.",
+    techStack: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "WebSocket",
+      "JWT",
+      "Docker",
+      "Spring Security"
+    ],
+    githubUrl: "https://github.com/your-username/ai-interview-platform",
+    category: "backend",
+    featured: true,
+  },
+
+  {
     id: "debt-desk",
     title: "Debt Desk",
     description: "A personal finance management application to track borrowed and lent money on a per-person basis with transaction history and balance management.",
@@ -22,6 +66,7 @@ export const projects: Project[] = [
     category: "web",
     featured: true,
   },
+
   {
     id: "vendue",
     title: "Vendue",
@@ -33,6 +78,7 @@ export const projects: Project[] = [
     category: "web",
     featured: true,
   },
+
   {
     id: "databiz-website",
     title: "DataBiz Website",
