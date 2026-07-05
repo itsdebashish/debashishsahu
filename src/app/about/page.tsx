@@ -8,27 +8,31 @@ import { Section } from "@/components/ui/section"
 
 const journeyMilestones = [
   {
-    year: "2021",
-    title: "Started Computer Science Journey",
-    description: "Began my undergraduate studies and discovered my passion for programming through competitive coding.",
-    icon: Code,
-  },
-  {
-    year: "2022",
-    title: "First Full-Stack Project",
-    description: "Built my first complete web application, sparking my interest in full-stack development.",
-    icon: Trophy,
-  },
-  {
-    year: "2023",
-    title: "MCA at NIT Bhopal",
-    description: "Started my Master's in Computer Applications at NIT Bhopal, focusing on advanced software engineering concepts.",
+    year: "2024",
+    title: "Started MCA & Software Engineering Journey",
+    description:
+      "Joined the Master of Computer Applications program at NIT Bhopal. Built a strong foundation in Data Structures, Algorithms, and full-stack web development while working on real-world projects.",
     icon: GraduationCap,
   },
   {
-    year: "2024",
-    title: "Open Source & Startups",
-    description: "Started contributing to open-source projects and exploring startup ideas with real-world impact.",
+    year: "2025",
+    title: "Mastered Java & Spring Boot",
+    description:
+      "Transitioned from full-stack development to backend engineering. Learned Java, Spring Boot, Spring Security, Hibernate, REST APIs, and built scalable backend systems following clean architecture principles.",
+    icon: Code,
+  },
+  {
+    year: "2026",
+    title: "Built Production-Grade Backend Systems",
+    description:
+      "Engineered production-style applications including a Food Delivery Backend System and an AI Interview Assessment Platform using Redis, Docker, PostgreSQL, JWT, WebSockets, and modern backend design patterns.",
+    icon: Trophy,
+  },
+  {
+    year: "Present",
+    title: "Backend Engineer & Continuous Learning",
+    description:
+      "Focused on backend engineering, system design, distributed systems, and solving 300+ LeetCode problems while continuously improving software architecture and problem-solving skills.",
     icon: Users,
   },
 ]
